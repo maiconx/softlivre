@@ -1,5 +1,7 @@
 @media screen and (max-width : 760px){
-
+ .menu-primary ul{
+   display:none;
+ }
  .menu-primary input{
    display: none;
  }
@@ -26,6 +28,28 @@
     color: #fff;
     text-decoration: none;
   }
+
+
+  /*RES TOP*/
+  #res-ul-top{
+
+    display:block;
+     float:left;
+     width: 500px;
+
+  }
+  #res-ul-top li{
+
+    display:block;
+     float:left;
+      margin-left: 2em;
+  }
+  #res-nav-top{
+    margin-top: -6em;
+  }
+
+
+  /*Res Drop */
   #res-nav{
 
       float:left;
@@ -45,9 +69,13 @@
     rgba(0,0,0,0.12) !important;
 
   }
+
   #res-nav li{
 float:left;
 width: 21em;
   }
+
+
+
 
 }
